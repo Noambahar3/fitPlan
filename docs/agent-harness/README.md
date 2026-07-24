@@ -18,6 +18,8 @@
 - `PRD.md` - דרישות מוצר ו-MVP
 - `PREFLIGHT.md` - בדיקות לפני בנייה/שינוי
 - `NUTRITION_DATA_PREFLIGHT.md` - בדיקת מקורות נתוני תזונה
+- `TECHNICAL_ARCHITECTURE.md` - ארכיטקטורת MVP מוצעת
+- `PARSING_FLOW.md` - זרימת פירוק ארוחה מטקסט חופשי
 - `PLAN.md` - שלבי ביצוע מוצעים
 - `RUNBOOK.md` - איך לעבוד בפרויקט
 - `CHECKS.md` - checklist בדיקות

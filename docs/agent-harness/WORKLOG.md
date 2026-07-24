@@ -66,3 +66,19 @@
   - לבנות שכבת ranking ואישור משתמש.
   - לשמור בחירות אישיות לשימוש חוזר.
 - Next: לעבור לתכנון סטאק/ארכיטקטורה וזרימת parsing ראשונית.
+
+## 2026-07-24 - Architecture And Parsing Draft
+
+- Objective: להכין תכנון טכני ראשוני לפני בניית קוד.
+- Changes:
+  - נוסף `TECHNICAL_ARCHITECTURE.md`.
+  - נוסף `PARSING_FLOW.md`.
+- Proposed stack:
+  - Vite + React + TypeScript PWA.
+  - Node.js + Fastify API.
+  - SQLite database.
+  - custom deterministic parser and ranking layer.
+- Risks:
+  - parser עברית יצטרך שיפור איטרטיבי לפי שימוש אמיתי.
+  - data.gov.il search דורש ranking ולא מספיק כמות שהוא.
+- Next: לקבל אישור stack/flow ואז להתחיל שלד פרויקט וקוד MVP ראשון.

@@ -15,10 +15,11 @@
 
 ## Phase 3 - Technical Proposal
 
-- להציע סטאק PWA + שרת.
+- להציע סטאק PWA + שרת. Drafted in `TECHNICAL_ARCHITECTURE.md`.
 - להגדיר מודל נתונים סופי ל-MVP.
 - להגדיר מסכי MVP.
 - להגדיר דרך deployment וגיבוי.
+- להגדיר זרימת parsing ראשונית. Drafted in `PARSING_FLOW.md`.
 
 ## Phase 4 - First Implementation Slice
 
