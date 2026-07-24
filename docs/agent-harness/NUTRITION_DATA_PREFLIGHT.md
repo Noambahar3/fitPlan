@@ -184,7 +184,7 @@ Suggested normalized item shape:
 
 ## Decision Needed
 
-Approve MVP source strategy:
+Approved by Noam on 2026-07-24:
 
 - Israeli National Nutrition Database as primary.
 - App-side ranking and personal cache.
