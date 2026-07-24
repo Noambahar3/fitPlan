@@ -8,9 +8,9 @@
 
 ## Phase 2 - Nutrition Data Preflight
 
-- לבדוק מקורות נתוני תזונה חינמיים ואמינים למוצרים בישראל.
+- לבדוק מקורות נתוני תזונה חינמיים ואמינים למוצרים בישראל. Done: see `NUTRITION_DATA_PREFLIGHT.md`.
 - לבדוק אפשרות לחיפוש/AI עבור טקסט חופשי בעברית.
-- להציע מקור נתונים ראשון ל-MVP.
+- להציע מקור נתונים ראשון ל-MVP. Current recommendation: Israeli National Nutrition Database as primary.
 - לא להסתמך על API בתשלום.
 
 ## Phase 3 - Technical Proposal

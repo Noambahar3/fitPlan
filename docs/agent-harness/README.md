@@ -17,6 +17,7 @@
 - `SPEC.md` - אפיון פונקציונלי ומגבלות
 - `PRD.md` - דרישות מוצר ו-MVP
 - `PREFLIGHT.md` - בדיקות לפני בנייה/שינוי
+- `NUTRITION_DATA_PREFLIGHT.md` - בדיקת מקורות נתוני תזונה
 - `PLAN.md` - שלבי ביצוע מוצעים
 - `RUNBOOK.md` - איך לעבוד בפרויקט
 - `CHECKS.md` - checklist בדיקות
