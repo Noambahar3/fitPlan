@@ -82,3 +82,29 @@
   - parser עברית יצטרך שיפור איטרטיבי לפי שימוש אמיתי.
   - data.gov.il search דורש ranking ולא מספיק כמות שהוא.
 - Next: לקבל אישור stack/flow ואז להתחיל שלד פרויקט וקוד MVP ראשון.
+
+## 2026-07-24 - First Code Scaffold
+
+- Objective: להתחיל שלד קוד MVP לאחר אישור stack.
+- Changes:
+  - נוסף root npm workspace.
+  - נוסף `apps/web` עם Vite + React + TypeScript.
+  - נוסף `server` עם Fastify + TypeScript.
+  - נוסף endpoint `POST /api/meals/parse`.
+  - נוסף endpoint `GET /api/nutrition/search`.
+  - parser ראשוני מחלק טקסט עברי לפריטים בסיסיים ומחפש ב-data.gov.il.
+- Verification:
+  - `npm install` הצליח ללא vulnerabilities.
+  - `npm run check` עבר.
+  - `npm run build` עבר.
+  - `POST /api/meals/parse` נבדק עם "פיתה עם חביתה מ-2 ביצים וקצת גבינה לבנה".
+  - Vite dev server עלה ב-`http://localhost:5174/`.
+  - API health החזיר `{ "ok": true }`.
+- Risks:
+  - חישוב כמויות עדיין לא ממומש; הערכים כרגע ל-100 גרם.
+  - UI הוא שלד ראשוני בלבד.
+  - אין עדיין שמירה ל-SQLite.
+- Next:
+  - להוסיף SQLite schema ושמירת meal/weight.
+  - להוסיף quantity handling.
+  - לשפר מסך אישור/בחירה.

@@ -1,0 +1,202 @@
+:root {
+  color: #172016;
+  background: #f5f7f2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+.shell {
+  width: min(100%, 720px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.summary {
+  display: grid;
+  gap: 18px;
+  padding: 24px 0 16px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: #51715b;
+  font-size: 0.9rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.1rem;
+  letter-spacing: 0;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 68px;
+  padding: 12px;
+  border: 1px solid #dae3d6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.metric span {
+  display: block;
+  color: #657369;
+  font-size: 0.78rem;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 1rem;
+}
+
+.panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+  padding: 16px;
+  border: 1px solid #dae3d6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+label,
+.section-head h2 {
+  font-weight: 700;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid #cad7c7;
+  border-radius: 8px;
+  padding: 12px;
+  line-height: 1.5;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  border: 0;
+  border-radius: 8px;
+  background: #166534;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+button:disabled {
+  opacity: 0.55;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.section-head span,
+.warning {
+  color: #6f5a11;
+  font-size: 0.9rem;
+}
+
+.items {
+  display: grid;
+  gap: 10px;
+}
+
+.food-item {
+  position: relative;
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #e0e6dc;
+  border-radius: 8px;
+}
+
+.food-item h3 {
+  font-size: 1rem;
+}
+
+.food-item p {
+  margin-top: 4px;
+  color: #5c6b60;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0;
+}
+
+dl div {
+  padding: 8px;
+  border-radius: 8px;
+  background: #f2f6ef;
+}
+
+dt {
+  color: #647568;
+  font-size: 0.75rem;
+}
+
+dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+}
+
+.pill {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #e7f5e8;
+  color: #166534;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.estimate {
+  background: #fff4cc;
+  color: #7a5800;
+}
+
+@media (max-width: 560px) {
+  .metric-grid,
+  dl {
+    grid-template-columns: 1fr 1fr;
+  }
+}
